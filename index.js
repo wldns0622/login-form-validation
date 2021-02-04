@@ -45,7 +45,7 @@ function handleIdCheck() {
   if (result) {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-check"></i>';
     vali.style.color = 'green';
-    isId = !isId;
+    isId = true;
   } else {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-times"></i>';
     vali.style.color = 'red';
@@ -59,7 +59,7 @@ function handlePasswordCheck() {
   if (result) {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-check"></i>';
     vali.style.color = 'green';
-    isPw = !isPw;
+    isPw = true;
   } else {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-times"></i>';
     vali.style.color = 'red';
@@ -73,7 +73,7 @@ function handlePasswordConfirmCheck() {
   if (result) {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-check"></i>';
     vali.style.color = 'green';
-    isPwc = !isPwc;
+    isPwc = true;
   } else {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-times"></i>';
     vali.style.color = 'red';
@@ -87,7 +87,7 @@ function handleNameCheck() {
   if (result) {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-check"></i>';
     vali.style.color = 'green';
-    isName = !isName;
+    isName = true;
   } else {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-times"></i>';
     vali.style.color = 'red';
@@ -101,7 +101,7 @@ function handleEmailCheck() {
   if (result) {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-check"></i>';
     vali.style.color = 'green';
-    isEmail = !isEmail
+    isEmail = true;
   } else {
     vali.innerHTML = '&nbsp;&nbsp;<i class="fas fa-times"></i>';
     vali.style.color = 'red';
