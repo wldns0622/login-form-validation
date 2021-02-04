@@ -19,3 +19,23 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.form {
+  background-color: rgba(255, 255, 242, 0.4);
+  width: 600px;
+  height: 700px;
+  padding: 4rem;
+  border-radius: 3rem;
+}
+
+.form--header {
+  text-align: center;
+}
+
+.form--header h1 {
+  margin-bottom: 1em;
+}
+
+.form--header p {
+  margin-bottom: 3em;
+}
