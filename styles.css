@@ -23,7 +23,7 @@
 .form {
   background-color: rgba(255, 255, 242, 0.4);
   width: 600px;
-  height: 700px;
+  height: 750px;
   padding: 4rem;
   border-radius: 3rem;
 }
@@ -54,10 +54,28 @@
   display: flex;
   /* justify-content: center; */
   align-items: center;
+  font-weight: lighter;
 }
 
 .form--list__input {
   width: 25em;
   height: 3em;
   border-radius: 0.6em;
+}
+
+.form--list:last-child {
+  margin: 1.3em 0em;
+}
+
+.form--list a {
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.form--list__check span {
+  font-weight: 400;
+}
+
+button {
+  
 }
