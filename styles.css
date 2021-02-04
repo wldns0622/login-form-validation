@@ -30,12 +30,34 @@
 
 .form--header {
   text-align: center;
+  font-family: 'PT Serif', serif;
 }
 
 .form--header h1 {
   margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .form--header p {
   margin-bottom: 3em;
+}
+
+.form--list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  font-size: 1.4em;
+}
+
+.form--list label {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.form--list__input {
+  width: 25em;
+  height: 3em;
+  border-radius: 0.6em;
 }
