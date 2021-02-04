@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&family=PT+Serif:ital,wght@1,700&display=swap');
+/* font-family: 'Hanalei', cursive; */
+/* font-family: 'PT Serif', serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/backgroundimage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
